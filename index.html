@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+      <meta name="description" content="This is a simple html web page">
+     <title>My spot Motors webpage</title> 
+  </head>
+  <body>
+
+   <header>
+      <h1>Available Brands</h1>
+   </header>
+    <h2>Ordered List with Roman Numerals</h2>
+    <ol type="I">
+      <li>Audi</li>
+      <li>Chevy Nova</li>
+      <li>Mustang</li>
+      <li>Mercedes</li>
+    </ol>
+    <h2>Image</h2>
+    <img src="chevy nova.JPG" alt="image of a 69' chevy nova" width="350" height="350">
+    <img src="mustang.JPG" alt="image of a mustang" width="350" height="350">
+    <h2>Contact List</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Vanessa Hope</td>
+          <td>900 Fifth Street</td>
+          <td>0743491183</td>
+          <td>vanessahhope@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Paul Abrams</td>
+          <td>1109 Apple Street</td>
+          <td>0758493208</td>
+          <td>abramspaul@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Victoria Wambui</td>
+          <td>8401 light Road</td>
+          <td>0768593278</td>
+          <td>victoriawambui@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Allen Wallace</td>
+          <td>0114Crown Street</td>
+          <td>0784931947</td>
+          <td>wallaceall@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Nara Kangai</td>
+          <td>876 Cypress Road</td>
+          <td>0718293561</td>
+          <td>narakangai@gmail.com</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Registration Form</h2>
+    <form action="/submit" method="POST">
+      <!-- Name -->
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+      <br><br>
+
+      <!-- Email -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      <br><br>
+
+      <!-- Password -->
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+      <br><br>
+
+      <!-- Dropdown -->
+      <label for="country">Country:</label>
+      <select id="country" name="country" required>
+          <option value="usa">USA</option>
+          <option value="kenya">Kenya</option>
+          <option value="ethipoia">Ethiopia</option>
+          <option value="canada">Canada</option>
+      </select>
+      <br><br>
+
+  <!-- Radio buttons -->
+  <label for="gender">Gender:</label>
+  <input type="radio" id="male" name="gender" value="male" required>
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+  <br><br>
+
+    <!-- Checkboxes -->
+    <label for="newsletter">Subscribe to newsletter:</label>
+    <input type="checkbox" id="newsletter" name="newsletter">
+    <br><br>
+
+    <!-- Submit button -->
+    <button type="submit">Submit</button>
+</form>
+</section>
+   <main>
+      <p>This is a paragraph on My Spot Motors webpage</p>
+      <a href="https://google.com">Visit Google.com</a>
+    </main>
+    <footer>
+      <p>&copy; 2025. My Website, All rights peserved.</p>
+    </footer>
+  </body>
+  
+</html>
